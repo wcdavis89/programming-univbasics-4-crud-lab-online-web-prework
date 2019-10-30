@@ -43,5 +43,6 @@ def retrieve_last_element_from_array(array)
 end
 
 def update_element_from_index(array, index_number, element)
-best_pets[4]="totally"
+array=["wow", "I", "am", "really", "learning", "arrays!"]
+array[3]="totally"
 end
