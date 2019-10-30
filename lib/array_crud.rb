@@ -3,11 +3,13 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ["Luci", "Rico", "Zipper", "Fiesta"]
+  best_pets=["Luci", "Rico", "Zipper", "Fiesta"]
 end
 
 def add_element_to_end_of_array(array, element)
-  best_pets.push("Lillie")
+  array=["wow", "I", "am", "really", "learning"]
+  element="arrays!"
+  array << element
 end
 
 def add_element_to_start_of_array(array, element)
