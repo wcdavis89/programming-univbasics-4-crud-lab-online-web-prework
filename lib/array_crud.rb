@@ -43,5 +43,5 @@ def retrieve_last_element_from_array(array)
 end
 
 def update_element_from_index(array, index_number, element)
-best_pets[2]="Simon"
+best_pets[4]="totally"
 end
