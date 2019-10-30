@@ -3,15 +3,15 @@ def create_an_empty_array
 end
 
 def create_an_array
-  best_pets[]
+  best_pets=["Luci", "Rico", "Zipper", "Fiesta"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  best_pets << "Lillie"
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  best_pets.unshift
 end
 
 def remove_element_from_end_of_array(array)
